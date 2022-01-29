@@ -1,0 +1,16 @@
+﻿<Window x:Class="Ejercio5NumLetra.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercio5NumLetra"
+        mc:Ignorable="d"
+        Title="Numero a Letra" Height="166" Width="300">
+    <Grid>
+        <Label Content="Numero" HorizontalAlignment="Left" Margin="20,21,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="Numero" HorizontalAlignment="Left" Margin="84,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+        <Button Content="Generar" HorizontalAlignment="Left" Margin="209,29,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Height="21" Width="60" Click="Button_Click"/>
+        <Label Content="Numero a Letra" HorizontalAlignment="Left" Margin="20,73,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="Num_Letra" HorizontalAlignment="Left" Margin="138,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" FontSize="14" FontWeight="Bold" />
+    </Grid>
+</Window>

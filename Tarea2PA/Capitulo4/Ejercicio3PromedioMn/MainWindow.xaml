@@ -1,0 +1,39 @@
+﻿<Window x:Class="Ejercicio3PromedioMn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio3PromedioMn"
+        mc:Ignorable="d"
+        Title="Promedio" Height="360" Width="445">
+    <Grid Margin="0,0,10,6">
+        <Label Content="Edad 1" HorizontalAlignment="Left" Margin="30,36,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox  x:Name="edad1" HorizontalAlignment="Left" Margin="89,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+
+        <Label Content="Edad 2" HorizontalAlignment="Left" Margin="30,79,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="edad2" HorizontalAlignment="Left" Margin="89,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+
+        <Label Content="Edad 3" HorizontalAlignment="Left" Margin="30,117,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="edad3" HorizontalAlignment="Left" Margin="89,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+
+        <Label Content="Edad 4" HorizontalAlignment="Left" Margin="221,36,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="edad4" HorizontalAlignment="Left" Margin="280,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+
+        <Label Content="Edad 5" HorizontalAlignment="Left" Margin="221,79,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="edad5" HorizontalAlignment="Left" Margin="280,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+
+        <Label Content="Edad 6" HorizontalAlignment="Left" Margin="221,117,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="edad6" HorizontalAlignment="Left" Margin="280,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+
+        <Button Content="Calcular" HorizontalAlignment="Left" Margin="89,164,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Click="ClickButton_Calcular"/>
+        
+        <Label Content="Promedio" HorizontalAlignment="Left" Margin="30,217,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <TextBox  x:Name="promedio"  HorizontalAlignment="Left" Margin="128,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+
+        <Label Content="Edad Mayor" HorizontalAlignment="Left" Margin="30,251,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <TextBox  x:Name="mayor" HorizontalAlignment="Left" Margin="128,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="14" FontWeight="Bold"/>
+
+        <Label Content="Edad Menor" HorizontalAlignment="Left" Margin="233,255,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="menor" HorizontalAlignment="Left" Margin="328,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="72" FontSize="14" FontWeight="Bold"/>
+    </Grid>
+</Window>

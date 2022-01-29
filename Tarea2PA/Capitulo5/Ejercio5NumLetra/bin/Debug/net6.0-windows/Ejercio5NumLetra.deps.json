@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ejercio5NumLetra/1.0.0": {
+        "runtime": {
+          "Ejercio5NumLetra.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejercio5NumLetra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
